@@ -1,4 +1,4 @@
-<h1 align="center">Northway RP · Loading Screen</h1>
+<h1 align="center">Northway RP · Website</h1>
 
 <p align="center">
   <img src="img/site.png" alt="Loading screen preview" width="800">
@@ -12,7 +12,7 @@
 
 ## About
 
-This is the loading screen I made for **NorthWay RP**, my GTA roleplay server. It was the page players saw while the game was loading.
+This is a website I created for **NorthWay RP**. It was designed as the main website for the project and was also used as the loading screen that players saw while the game was loading.
 
 The server is closed now, so this is an old project. I'm keeping it here as part of my portfolio.
 
