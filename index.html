@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoWay RP</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="video-bg">
+        <iframe
+            src="https://www.youtube.com/embed/_vbgxAowWJM?autoplay=1&mute=1&loop=1&playlist=_vbgxAowWJM&controls=0&modestbranding=1&rel=0&playsinline=1&disablekb=1"
+            title="NoWay RP background video"
+            allow="autoplay; encrypted-media"
+            referrerpolicy="strict-origin-when-cross-origin"
+            tabindex="-1">
+        </iframe>
+    </div>
+
+    <main class="centro">
+        <img class="logo" src="img/logo.png" alt="Northway Roleplay">
+    </main>
+
+    <audio id="music" autoplay loop>
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+
+    <footer class="info">
+        <span>Seja bem-vindo à sua nova história</span>
+        <div class="redes">
+            <img src="img/tiktok.png" alt="TikTok">
+            <img src="img/instagram.png" alt="Instagram">
+            <img src="img/youtube.png" alt="YouTube">
+        </div>
+    </footer>
+
+    <script>
+        var music = document.getElementById("music");
+        music.volume = 0.5;
+
+        // Pressione "P" para pausar ou tocar a música
+        document.addEventListener("keydown", function (event) {
+            if (event.key.toLowerCase() === "p") {
+                if (music.paused) {
+                    music.play();
+                } else {
+                    music.pause();
+                }
+            }
+        });
+    </script>
+</body>
+</html> 
