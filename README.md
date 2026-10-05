@@ -42,3 +42,6 @@ img/        logo, social icons and the screenshot
 
 Made by **Nicolas Borges Ocampos**
 [LinkedIn](https://www.linkedin.com/in/nicolas-borges-ocampos) · [GitHub](https://github.com/R4B1DS)
+
+
+> I used Claude (an AI assistant) to help organize this README and make minor corrections to the code. The project, ideas, and original code are my own.
